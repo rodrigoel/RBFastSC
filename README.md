@@ -6,6 +6,7 @@ To be used for the detection and analysis of cyclostationary signals.
 This algorithm was ported from the original matlab scripts developed by Jerome Antoni (link in reference).
 
 It's possible to change the STFT window by modifing the parameter WindowType (default/original = 'hanning').
+
 Possible values for WindowType: ['hanning', 'hamming', 'blackman', 'kaiser', 'gaussian', 'chebwin']
 
 References:
